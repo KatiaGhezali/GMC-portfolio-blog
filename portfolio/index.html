@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between items-center p-6 bg-gradient-to-r from-purple-900 via-black to-purple-700 text-white"
+    >
+      <a class="text-3xl font-extrabold tracking-widest" href="#"
+        >Katia Ghezali</a
+      >
+      <nav class="hidden md:flex space-x-8 text-lg">
+        <a href="#home" class="hover:text-purple-400">Home</a>
+
+        <a href="#projects" class="hover:text-purple-400">Projects</a>
+
+        <a href="#contact" class="hover:text-purple-400">Contact</a>
+
+        <button class="md:hidden p-2" aria-label="Open menu">☰</button>
+      </nav>
+    </header>
+
+    <section
+      id="home"
+      class="relative bg-cover bg-center h-screen"
+      style="background-image: url('assets/hero-pfolio.jpg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+      <div
+        class="relative flex flex-col items-center justify-center h-full text-center px-4"
+      >
+        <h2 class="text-5xl md:text-7xl font-extrabold text-white mb-4">
+          Hi, I'm Katia
+        </h2>
+        <p class="text-xl md:text-2xl text-gray-300 max-w-xl">
+          A software engineer building cool websites with React and Next.js
+        </p>
+        <div class="mt-8 flex justify-center gap-4 text-white">
+          <a
+            href="#projects"
+            class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-full"
+            >See projects</a
+          >
+          <a
+            href="#contact"
+            class="border border-purple-900 px-6 py-3 rounded-full"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      class="py-12 bg-gradient-to-r from-black via-gray-900 to-black text-white"
+    >
+      <div class="container mx-auto">
+        <h3 class="text-4xl font-bold mb-6 text-center">My Skills</h3>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6"
+        >
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-html5-plain"></i>
+            <h4 class="font-medium">HTML</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-css3-plain"></i>
+            <h4 class="font-medium">CSS</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-javascript-plain"></i>
+            <h4 class="font-medium">JavaScript</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-react-original"></i>
+            <h4 class="font-medium">React</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-nextjs-original"></i>
+            <h4 class="font-medium">Next.js</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-tailwindcss-plain"></i>
+            <h4 class="font-medium">Tailwind</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <h4 class="font-medium">Framer Motion</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-firebase-plain"></i>
+            <h4 class="font-medium">Firebase</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-php-plain"></i>
+            <h4 class="font-medium">PHP</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <h4 class="font-medium">SQL</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-python-plain"></i>
+            <h4 class="font-medium">Python</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-java-plain"></i>
+            <h4 class="font-medium">Java</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-postgresql-plain"></i>
+            <h4 class="font-medium">PostgreSQL</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-git-plain"></i>
+            <h4 class="font-medium">Git</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-github-original"></i>
+            <h4 class="font-medium">GitHub</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-figma-plain"></i>
+            <h4 class="font-medium">Figma</h4>
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 bg-transparent border border-purple-900 rounded-lg p-4 text-center shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <i class="devicon-webflow-original"></i>
+            <h4 class="font-medium">Webflow</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="py-12 bg-gradient-to-r from-black via-gray-900 to-black text-white"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-6 text-center">My Projects</h2>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <article
+            class="bg-transparent border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <img
+              src="/portfolio/assets/sstore.png"
+              alt=""
+              class="w-full h-44 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-2">Student Store</h3>
+              <p class="text-sm text-gray-300 mb-4">
+                A marketplace for students to sell, borrow, lend and purchase
+                products online
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="text-sm border border-purple-700 rounded-full px-3 py-1"> Next.js</span>
+                <a href="#" class="text-purple-400 hover:text-purple-300 font-medium">View</a>
+              </div>
+            </div>
+          </article>
+      
+        <article
+        class="bg-transparent border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+      >
+        <img
+          src="/portfolio/assets/cnchill (copy).png"
+          alt=""
+          class="w-full h-44 object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">CNChill</h3>
+          <p class="text-sm text-gray-300 mb-4">
+            A website displaying all type of movies with the necessary information, as well as the actors information
+          </p>
+          <div class="flex items-center justify-between">
+            <span class="text-sm border border-purple-700 rounded-full px-3 py-1"> Next.js</span>
+            <a href="#" class="text-purple-400 hover:text-purple-300 font-medium">View</a>
+          </div>
+        </div>
+      </article>
+      <article
+      class="bg-transparent border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+    >
+      <img
+        src="/portfolio/assets/ebuy.png"
+        alt=""
+        class="w-full h-44 object-cover"
+      />
+      <div class="p-5">
+        <h3 class="text-xl font-semibold mb-2">Ebuy</h3>
+        <p class="text-sm text-gray-300 mb-4">
+          An online store where you users could buy products
+        </p>
+        <div class="flex items-center justify-between">
+          <span class="text-sm border border-purple-700 rounded-full px-3 py-1"> Next.js</span>
+          <a href="#" class="text-purple-400 hover:text-purple-300 font-medium">View</a>
+        </div>
+      </div>
+    </article>
+    
+        
+      </div>
+    </section>
+
+
+    <section id="contact" class="py-12 bg-gradient-to-r from-black via-gray-900 to-black text-white">
+      <div class="container mx-auto px-4">
+        <h3 class="text-4xl font-bold mb-8 text-center"> Contact Me</h3>
+        <div class="max-w-2xl mx-auto border border-purple-900 rounded-lg p-6 shadow-sm">
+
+          <form >
+
+            <div class="mb-4">
+              <label for="name" class="block font-medium mb-2">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" class="w-full px-4 py-3 bg-transparent border border-purple-900 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500">
+            </div>
+            <div class="mb-4">
+
+              <label for="email" class="block font-medium mb-2">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-3 bg-transparent border border-purple-900 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500">
+            </div>
+            <div class="mb-6">
+
+              <label for="message" class="block font-medium mb-2">Message</label>
+              <textarea name="message" id="message" rows="5" placeholder="Enter your message..." class="w-full px-4 py-3 bg-transparent border border-purple-900 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="px-6 py-3 border border-purple-900 rounded-lg font-medium hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition "> Send Message</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <footer
+  class="py-8 bg-black text-white border-t border-purple-900"
+>
+  <div class="container mx-auto px-4 text-center">
+
+    <div class="flex justify-center gap-6 mb-4">
+      <a
+        href="https://github.com/KatiaGhezali"
+        target="_blank"
+        class="text-2xl hover:text-purple-500 transition"
+        aria-label="GitHub"
+      >
+        <i class="devicon-github-original"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/katiaghezali/?skipRedirect=true"
+        target="_blank"
+        class="text-2xl hover:text-purple-500 transition"
+        aria-label="LinkedIn"
+      >
+        <i class="devicon-linkedin-plain"></i>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-gray-400 text-sm">
+      &copy; 2026 Katia Ghezali. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+  </body>
+</html>

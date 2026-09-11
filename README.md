@@ -1,1 +1,0 @@
-# GMC-portfolio-blog
