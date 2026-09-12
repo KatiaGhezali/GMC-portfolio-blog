@@ -13,8 +13,8 @@ A responsive portfolio webpage showcasing my introduction, skills, projects, and
 
 ### Screenshot
 
-![Portfolio](./assets/pf1.png)
-![Portfolio](./assets/pf2.png)
-![Portfolio](./assets/pf3.png)
-![Portfolio](./assets/pfm1.png)
-![Portfolio](./assets/pfm2.png)
+![Portfolio](portfolio/assets/pf1.png)
+![Portfolio](portfolio/assets/pf2.png)
+![Portfolio](portfolio/assets/pf3.png)
+![Portfolio](portfolio/assets/pfm1.png)
+![Portfolio](portfolio/assets/pfm2.png)
