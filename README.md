@@ -19,13 +19,13 @@ A responsive portfolio webpage showcasing my introduction, skills, projects, and
 ![Portfolio](portfolio/assets/pfm1.png)
 ![Portfolio](portfolio/assets/pfm2.png)
 
-## 1. Personal Blog
+## 2. Personal Blog
 
 A responsive blog webpage showcasing featured articles, categories and recent posts.
 
 ### Screenshot
 
-![Portfolio](blog/assets/Desktop-blog-1.png.png)
-![Portfolio](blog/assets/Desktop-blog-2.png.png)
-![Portfolio](blog/assets/Mobile-blog-1.png.png)
-![Portfolio](blog/assets/Mobile-blog-2.png.png)
+![Blog](blog/assets/Desktop-blog-1.png)
+![Blog](blog/assets/Desktop-blog-2.png)
+![Blog](blog/assets/Mobile-blog-1.png)
+![Blog](blog/assets/Mobile-blog-2.png)
