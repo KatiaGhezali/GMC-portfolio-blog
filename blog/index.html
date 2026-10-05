@@ -1,10 +1,281 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TechMind Blog</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Blog</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
-  <body></body>
+
+  <body class="bg-gradient-to-r from-black via-gray-900 to-black text-white">
+    <header class="border-b border-purple-900">
+      <nav
+        class="container mx-auto px-4 py-5 flex flex-col md:flex-row items-center justify-between gap-4"
+      >
+        <h1 class="text-2xl font-bold">
+          Tech<span class="text-purple-500">Mind</span>
+        </h1>
+
+        <div class="flex gap-6">
+          <a href="#home" class="hover:text-purple-500 transition"> Home </a>
+
+          <a href="#featured" class="hover:text-purple-500 transition">
+            Featured
+          </a>
+
+          <a href="#categories" class="hover:text-purple-500 transition">
+            Categories
+          </a>
+
+          <a href="#recent" class="hover:text-purple-500 transition">
+            Recent
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="py-16 text-center">
+      <div class="container mx-auto px-4">
+        <p class="text-purple-400 font-medium mb-3">Welcome to TechMind</p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Ideas, Technology & Creativity
+        </h2>
+
+        <p class="text-gray-300 max-w-2xl mx-auto">
+          Discover articles about technology, web development, programming, and
+          the ideas shaping the digital world.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="featured"
+      class="py-12 bg-gradient-to-r from-black via-gray-900 to-black"
+    >
+      <div class="container mx-auto px-4">
+        <h3 class="text-4xl font-bold mb-8 text-center">Featured Posts</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <article
+            class="border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <img
+              src="assets/web-development.jpeg"
+              alt="Web development"
+              class="w-full h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block px-3 py-1 mb-3 text-sm border border-purple-700 rounded-full"
+              >
+                Web Development
+              </span>
+
+              <h4 class="text-xl font-semibold mb-2">
+                The Future of Web Development
+              </h4>
+
+              <p class="text-gray-300">
+                Explore how modern technologies are changing the way developers
+                build websites and applications.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <img
+              src="assets/artificial-intelligence.jpeg"
+              alt="Artificial intelligence"
+              class="w-full h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block px-3 py-1 mb-3 text-sm border border-purple-700 rounded-full"
+              >
+                Artificial Intelligence
+              </span>
+
+              <h4 class="text-xl font-semibold mb-2">
+                Understanding AI in Everyday Life
+              </h4>
+
+              <p class="text-gray-300">
+                A look at how artificial intelligence is becoming part of the
+                tools and technologies we use every day.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="border border-purple-900 rounded-lg overflow-hidden shadow-sm hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <img
+              src="assets/programming.jpeg"
+              alt="Programming"
+              class="w-full h-48 object-cover"
+            />
+
+            <div class="p-5">
+              <span
+                class="inline-block px-3 py-1 mb-3 text-sm border border-purple-700 rounded-full"
+              >
+                Programming
+              </span>
+
+              <h4 class="text-xl font-semibold mb-2">
+                Building Better Coding Habits
+              </h4>
+
+              <p class="text-gray-300">
+                Simple habits that can help developers improve their
+                problem-solving and programming skills.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="py-12">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-4xl font-bold mb-6">Categories</h3>
+
+        <div class="flex flex-wrap justify-center gap-4">
+          <span
+            class="px-4 py-2 border border-purple-900 rounded-full hover:bg-purple-900 transition"
+          >
+            Web Development
+          </span>
+
+          <span
+            class="px-4 py-2 border border-purple-900 rounded-full hover:bg-purple-900 transition"
+          >
+            Programming
+          </span>
+
+          <span
+            class="px-4 py-2 border border-purple-900 rounded-full hover:bg-purple-900 transition"
+          >
+            Artificial Intelligence
+          </span>
+
+          <span
+            class="px-4 py-2 border border-purple-900 rounded-full hover:bg-purple-900 transition"
+          >
+            Design
+          </span>
+
+          <span
+            class="px-4 py-2 border border-purple-900 rounded-full hover:bg-purple-900 transition"
+          >
+            Technology
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="recent"
+      class="py-12 bg-gradient-to-r from-black via-gray-900 to-black"
+    >
+      <div class="container mx-auto px-4">
+        <h3 class="text-4xl font-bold mb-8 text-center">Recent Posts</h3>
+
+        <div class="max-w-3xl mx-auto space-y-4">
+          <article
+            class="border border-purple-900 rounded-lg p-5 hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <h4 class="text-xl font-semibold">Why Responsive Design Matters</h4>
+
+            <p class="text-gray-400 text-sm mt-2">June 10, 2026</p>
+          </article>
+
+          <article
+            class="border border-purple-900 rounded-lg p-5 hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <h4 class="text-xl font-semibold">Getting Started with React</h4>
+
+            <p class="text-gray-400 text-sm mt-2">June 5, 2026</p>
+          </article>
+
+          <article
+            class="border border-purple-900 rounded-lg p-5 hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+          >
+            <h4 class="text-xl font-semibold">
+              Designing Better User Experiences
+            </h4>
+
+            <p class="text-gray-400 text-sm mt-2">May 28, 2026</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+        <div
+          class="max-w-2xl mx-auto border border-purple-900 rounded-lg p-6 text-center"
+        >
+          <h3 class="text-3xl font-bold mb-3">Subscribe to Our Newsletter</h3>
+
+          <p class="text-gray-300 mb-6">
+            Get the latest articles and updates delivered to your inbox.
+          </p>
+
+          <form class="flex flex-col sm:flex-row gap-3">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="flex-1 px-4 py-3 bg-transparent border border-purple-900 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500"
+            />
+
+            <button
+              type="submit"
+              class="px-6 py-3 border border-purple-900 rounded-lg font-medium hover:bg-gradient-to-l from-purple-900 via-black to-purple-700 transition"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-8 bg-black text-white border-t border-purple-900">
+      <div class="container mx-auto px-4 text-center">
+        <div class="flex justify-center gap-6 mb-4">
+          <a
+            href="https://github.com/KatiaGhezali"
+            class="text-2xl hover:text-purple-500 transition"
+            aria-label="GitHub"
+          >
+            <i class="devicon-github-original"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/katiaghezali/"
+            class="text-2xl hover:text-purple-500 transition"
+            aria-label="LinkedIn"
+          >
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+        </div>
+
+        <p class="text-gray-400 text-sm">
+          &copy; 2026 TechMind. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
